@@ -1,8 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <Nullable>disable</Nullable>
+    <Nullable>enable</Nullable>
     <Configurations>Release;LamaDebug</Configurations>
     <Version>0</Version>
     <Authors>The team members are listed in README.md file on project web page.</Authors>
@@ -26,7 +26,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LamaDebug|AnyCPU'">
     <NoWarn />
     <WarningsAsErrors />
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Atesh.Metalama.csproj.DotSettings" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Metalama.Framework" Version="0.5.40-preview" />
