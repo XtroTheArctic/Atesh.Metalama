@@ -13,7 +13,7 @@ public class ValidateOperationAttribute : OverrideMethodAspect
     {
         var ValidateMethod = meta.Target.Type.Methods.OfName(MethodName).First();
 
-        ValidateMethod.Invokers.Final.Invoke(meta.RunTime(ValidateMethod.IsStatic ? null : meta.This));
+        ValidateMethod.Invokers.Final.Invoke(meta.RunTime((ValidateMethod.IsStatic ? null : meta.This)));
 
         return meta.Proceed();
     }
