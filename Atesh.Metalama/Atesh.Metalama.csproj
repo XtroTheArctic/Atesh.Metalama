@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
     <Configurations>Release;LamaDebug</Configurations>
-    <Version>1.0</Version>
+    <Version>1.0.1-beta1</Version>
     <Authors>The team members are listed in README.md file on project web page.</Authors>
     <Company>Atesh Entertainment Inc.</Company>
     <Description>Atesh.Metalama library is a collection of custom made Metalama Aspects (a.k.a Attributes).</Description>
@@ -12,8 +12,8 @@
     <RepositoryUrl>git@bitbucket.org:XtroTheArctic/atesh.metalama</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>Atesh, Metalama, PostSharp, Aspect, Attribute</PackageTags>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.98.1</AssemblyVersion>
+    <FileVersion>1.0.98.1</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
