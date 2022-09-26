@@ -12,9 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		LamaDebug|Any CPU = LamaDebug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{891247B1-A6F1-4D63-8659-B39200F7B80A}.LamaDebug|Any CPU.ActiveCfg = LamaDebug|Any CPU
+		{891247B1-A6F1-4D63-8659-B39200F7B80A}.LamaDebug|Any CPU.Build.0 = LamaDebug|Any CPU
 		{891247B1-A6F1-4D63-8659-B39200F7B80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{891247B1-A6F1-4D63-8659-B39200F7B80A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection

@@ -9,6 +9,6 @@ public class NotNullAttribute : InputValidationAspect
     // ReSharper disable once InconsistentNaming
     public override void Validate(dynamic? value)
     {
-        if (value == null) throw new ArgumentNullException(((IParameter)meta.Target.Declaration).Name);
+        if (value == null) throw new ArgumentNullException(((INamedDeclaration)meta.Target.Declaration).Name);
     }
 } 
