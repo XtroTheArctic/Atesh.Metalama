@@ -34,7 +34,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Metalama.Framework" Version="0.5.40-preview" />
+    <PackageReference Include="Metalama.Framework" Version="0.5.41-preview" />
   </ItemGroup>
 
 </Project>
