@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using Metalama.Framework.Aspects;
+﻿using Metalama.Framework.Aspects;
 
 namespace Atesh.Metalama;
 
@@ -11,10 +10,7 @@ public class ValidateOperationAttribute : OverrideMethodAspect
 
     public override dynamic? OverrideMethod()
     {
-        var ValidateMethod = meta.Target.Type.Methods.OfName(MethodName).First();
-
-        if (ValidateMethod.IsStatic) ValidateMethod.Invokers.Final.Invoke(null);
-        else ValidateMethod.Invokers.Final.Invoke(meta.This);
+        meta.InsertStatement(MethodName + "();");
 
         return meta.Proceed();
     }
