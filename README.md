@@ -8,8 +8,8 @@ Atesh.Metalama library is a collection of custom made Metalama Aspects (a.k.a At
 <br />
 Metalama offers a free license so you can use community aspects such as the ones in Atesh.Metalama free of charge.<br />
 <br />
-From their website: Metalama is a modern Roslyn-based meta-programming framework for C# to reduce boilerplate and architecture erosion by offloading repeating work from humans to machines. [Metalama Documentation](https://www.postsharp.net/metalama/documentation).
-
+From their website: Metalama is a modern Roslyn-based meta-programming framework for C# to reduce boilerplate and architecture erosion by offloading repeating work from humans to machines. [Metalama Documentation](https://www.postsharp.net/metalama/documentation).<br />
+<br />
 Please see Distribution section below for more info.
 
 # Team Members
