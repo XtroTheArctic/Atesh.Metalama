@@ -38,12 +38,11 @@ By using Metalama system in your project, you will be able to implement your own
   </ItemGroup>
 ```
 
-If you just want to use the existing aspects from Atesh.Metalama and don't want to implement your own aspects, then you should modify the package reference by adding a PrivateAssets value and you should add a reference to Metalama.Framework.Redist :
+If you just want to use the existing aspects from Atesh.Metalama and don't want to implement your own aspects, then you should modify the package reference by adding a PrivateAssets value:
 
 ```
 <ItemGroup>
     <PackageReference Include="Atesh.Metalama" Version="CHANGE ME" PrivateAssets="all" />
-    <PackageReference Include="Metalama.Framework.Redist" Version="CHANGE ME" />
 </ItemGroup>
 ```
 
