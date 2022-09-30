@@ -4,12 +4,12 @@ Atesh.Metalama library is a collection of custom made Metalama Aspects (a.k.a At
 
 # Prerequisites
 
-* **Metalama:** The purpose of Atesh.Metalama library is to add additional features to Metalama by providing new aspects. Metalama is a commercial product which is a modern replacement for PostSharp: https://www.postsharp.net/metalama.<br />
-<br />
-Metalama offers a free license so you can use community aspects such as the ones in Atesh.Metalama free of charge.<br />
-<br />
-From their website: Metalama is a modern Roslyn-based meta-programming framework for C# to reduce boilerplate and architecture erosion by offloading repeating work from humans to machines. [Metalama Documentation](https://www.postsharp.net/metalama/documentation).<br />
-<br />
+* **Metalama:** The purpose of Atesh.Metalama library is to add additional features to Metalama by providing new aspects. Metalama is a commercial product which is a modern replacement for PostSharp: https://www.postsharp.net/metalama. \
+\
+Metalama offers a free license so you can use community aspects such as the ones in Atesh.Metalama free of charge. \
+\
+From their website: Metalama is a modern Roslyn-based meta-programming framework for C# to reduce boilerplate and architecture erosion by offloading repeating work from humans to machines. [Metalama Documentation](https://www.postsharp.net/metalama/documentation). \
+\
 Please see Distribution section below for more info.
 
 # Team Members
