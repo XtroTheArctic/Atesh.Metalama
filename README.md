@@ -4,9 +4,11 @@ Atesh.Metalama library is a collection of custom made Metalama Aspects (a.k.a At
 
 # Prerequisites
 
-* **Metalama:** The purpose of this library is to provide additional features to Metalama so, to be able to use this library, you should already be using Metalama in your project. It is a commercial product from the makers of well known PostSharp: https://www.postsharp.net/metalama
+* **Metalama:** The purpose of Atesh.Metalama library is to add additional features to Metalama by providing new aspects. Metalama is a commercial product which is a modern replacement for PostSharp: https://www.postsharp.net/metalama
 
-Metalama is a modern Roslyn-based meta-programming framework for C# to reduce boilerplate and architecture erosion by offloading repeating work from humans to machines. Please see [Metalama Documentation](https://www.postsharp.net/metalama/documentation) for more info.
+From their website: Metalama is a modern Roslyn-based meta-programming framework for C# to reduce boilerplate and architecture erosion by offloading repeating work from humans to machines. [Metalama Documentation](https://www.postsharp.net/metalama/documentation).
+
+Please see Distribution section below for more info.
 
 # Team Members
 
@@ -21,6 +23,29 @@ You can directly install the library via [NuGet](https://www.nuget.org/packages/
 Download it via "manual download" link in [NuGet](https://www.nuget.org/packages/Atesh.Metalama) web page and extract the assembly into your project manually if you don't want to use a NuGet client.
 
 "nupkg" file you downloaded from NuGet web page is a regular zip file. You can change its extension to "zip" and extract it easily.
+
+# Distribution
+
+Atesh.Metalama library references Metalama.Framework library therefore, referencing Atesh.Metalama in your own project will automatically make your project to use the Metalama system.
+
+By using Metalama system in your project, you will be able to implement your own Metalama aspects. If that's what you want, you can keep the package reference in your `.csproj` file unmodified:
+
+```
+  <ItemGroup>
+    <PackageReference Include="Atesh.Metalama" Version="CHANGE ME" />
+  </ItemGroup>
+```
+
+If you just want to use the existing aspects from Atesh.Metalama and don't want to implement your own aspects, then you should modify the package reference by adding a PrivateAssets value and you should add a reference to Metalama.Framework.Redist :
+
+```
+<ItemGroup>
+    <PackageReference Include="Atesh.Metalama" Version="CHANGE ME" PrivateAssets="all" />
+    <PackageReference Include="Metalama.Framework.Redist" Version="CHANGE ME" />
+</ItemGroup>
+```
+
+You can see the distribution section of [Metalama Documentation](https://doc.metalama.net/deployment/distributing) for more info.
 
 # Contribution
 
