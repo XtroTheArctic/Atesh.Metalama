@@ -4,13 +4,16 @@ namespace Atesh.Metalama;
 
 public class ValidateOperationAttribute : OverrideMethodAspect
 {
-    readonly string MethodName;
+    readonly string[] MethodNames;
 
-    public ValidateOperationAttribute(string MethodName) => this.MethodName = MethodName;
+    public ValidateOperationAttribute(params string[] MethodNames) => this.MethodNames = MethodNames;
 
     public override dynamic? OverrideMethod()
     {
-        meta.InsertStatement(MethodName + "();");
+        foreach (var MethodName in MethodNames)
+        {
+            meta.InsertStatement(MethodName + "();");
+        }
 
         return meta.Proceed();
     }
