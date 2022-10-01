@@ -15,7 +15,7 @@ public class GreaterThanOrEqualAttribute : RangeContractAspect
     public override void Validate(dynamic? value)
     {
 #pragma warning disable CS8602
-        if (value.CompareTo(Value1) < 0) throw new ArgumentOutOfRangeException(((INamedDeclaration)meta.Target.Declaration).Name, Strings.ValueCantBeLessThan(Value1.ToString()));
+        if (value.CompareTo(Value1) < 0) throw new ArgumentOutOfRangeException(((INamedDeclaration)meta.Target.Declaration).Name, value, Strings.ValueCantBeLessThan(Value1.ToString()));
 #pragma warning restore CS8602
     }
 }

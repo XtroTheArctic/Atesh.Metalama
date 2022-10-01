@@ -17,7 +17,7 @@ public class RangeAttribute : RangeContractAspect
     public override void Validate(dynamic? value)
     {
 #pragma warning disable CS8602
-        if (value.CompareTo(Value1) < 0 || value.CompareTo(Value2) > 0) throw new ArgumentOutOfRangeException(((INamedDeclaration)meta.Target.Declaration).Name, Strings.ValueMustBeBetween(Value1.ToString(), Value2.ToString()));
+        if (value.CompareTo(Value1) < 0 || value.CompareTo(Value2) > 0) throw new ArgumentOutOfRangeException(((INamedDeclaration)meta.Target.Declaration).Name, value, Strings.ValueMustBeBetween(Value1.ToString(), Value2.ToString()));
 #pragma warning restore CS8602
     }
 }

@@ -15,7 +15,7 @@ public class LessThanAttribute : RangeContractAspect
     public override void Validate(dynamic? value)
     {
 #pragma warning disable CS8602
-        if (value.CompareTo(Value1) >= 0) throw new ArgumentOutOfRangeException(((INamedDeclaration)meta.Target.Declaration).Name, Strings.ValueMustBeLessThan(Value1.ToString()));
+        if (value.CompareTo(Value1) >= 0) throw new ArgumentOutOfRangeException(((INamedDeclaration)meta.Target.Declaration).Name, value, Strings.ValueMustBeLessThan(Value1.ToString()));
 #pragma warning restore CS8602
     }
 }
