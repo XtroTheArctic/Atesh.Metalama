@@ -14,6 +14,6 @@ public abstract class RangeContractAspect : InputValidationAspect
     {
         base.BuildEligibility(Builder);
 
-        Builder.MustSatisfyAny(X => X.Type().MustBe<int>(), X => X.Type().MustBe<long>(), X => X.Type().MustBe<float>(), X => X.Type().MustBe<double>());
+        Builder.MustSatisfyAny(X => X.Type().MustBeOfAnyType(typeof(int), typeof(long), typeof(float), typeof(double)));
     }
 }
