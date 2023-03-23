@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Nullable>enable</Nullable>
     <Configurations>Release;LamaDebug</Configurations>
-    <Version>1.1.1</Version>
+    <Version>1.1.2</Version>
     <Authors>The team members are listed in README.md file on project web page.</Authors>
     <Company>Atesh Entertainment Inc.</Company>
     <Description>Atesh.Metalama library is a collection of custom made Metalama Aspects (a.k.a Attributes).</Description>
@@ -12,20 +12,18 @@
     <RepositoryUrl>git@bitbucket.org:XtroTheArctic/atesh.metalama</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>Atesh, Metalama, PostSharp, Aspect, Attribute</PackageTags>
-    <AssemblyVersion>1.1.1.0</AssemblyVersion>
-    <FileVersion>1.1.1.0</FileVersion>
+    <AssemblyVersion>1.1.2.0</AssemblyVersion>
+    <FileVersion>1.1.2.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath>bin</OutputPath>
     <NoWarn />
-    <WarningsAsErrors />
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='LamaDebug|AnyCPU'">
     <NoWarn />
-    <WarningsAsErrors />
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
@@ -34,7 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Metalama.Framework" Version="2023.0.108-rc" />
+    <PackageReference Include="Metalama.Framework" Version="2023.0.109-rc" />
   </ItemGroup>
 
 </Project>
