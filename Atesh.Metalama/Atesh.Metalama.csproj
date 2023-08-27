@@ -7,6 +7,7 @@
     <Configurations>Release;LamaDebug</Configurations>
     <Version>0</Version>
     <Authors>The team members are listed in README.md file on project web page.</Authors>
+    <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
     <Company>Atesh Entertainment Inc.</Company>
     <Description>Atesh.Metalama library is a collection of custom made Metalama Aspects (a.k.a Attributes).</Description>
     <PackageProjectUrl>https://bitbucket.org/XtroTheArctic/atesh.metalama</PackageProjectUrl>
