@@ -1,5 +1,4 @@
-﻿using System;
-using Metalama.Framework.Code;
+﻿using Metalama.Framework.Code;
 using Metalama.Framework.Eligibility;
 
 namespace Atesh.Metalama;
