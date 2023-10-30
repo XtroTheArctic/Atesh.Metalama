@@ -8,7 +8,7 @@ public class ValidateOperationAttribute : OverrideMethodAspect
 
     public ValidateOperationAttribute(params string[] MethodNames) => this.MethodNames = MethodNames;
 
-    public override dynamic OverrideMethod()
+    public override dynamic? OverrideMethod()
     {
         foreach (var MethodName in MethodNames)
         {
