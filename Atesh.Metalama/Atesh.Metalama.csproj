@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <Configurations>Release;LamaDebug</Configurations>
-    <Version>1.2</Version>
+    <Version>1.2.1</Version>
     <Authors>The team members are listed in README.md file on project web page.</Authors>
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
     <Company>Atesh Entertainment Inc.</Company>
@@ -14,8 +14,8 @@
     <RepositoryUrl>git@bitbucket.org:XtroTheArctic/atesh.metalama</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>Atesh, Metalama, PostSharp, Aspect, Attribute</PackageTags>
-    <AssemblyVersion>1.2.0.0</AssemblyVersion>
-    <FileVersion>1.2.0.0</FileVersion>
+    <AssemblyVersion>1.2.1.0</AssemblyVersion>
+    <FileVersion>1.2.1.0</FileVersion>
     <MetalamaLicense>111976-ZQMC8QQQXEAEQRQCB88YNBFRY2EWBQGVS8KTX7YDS29ZXNSRF4UWBZUAAZ9CNJAFVD6CXMSRR4UMNTDAEJ8QB6WGK6W35S65EU5WTDMSWE7EL2WBLF2Q4UUYTPPFZ3NN6H97CDPJHAD2J83UYMZQQDE9YUWZTCWQL5AR27W3VJRL5</MetalamaLicense>
   </PropertyGroup>
 
@@ -35,7 +35,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Metalama.Framework" Version="2023.3.8" />
+    <PackageReference Include="Metalama.Framework" Version="2024.0.7" />
   </ItemGroup>
 
 </Project>
