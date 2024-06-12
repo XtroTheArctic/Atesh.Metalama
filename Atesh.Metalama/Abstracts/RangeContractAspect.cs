@@ -7,6 +7,7 @@ public abstract class RangeContractAspect : InputValidationAspect
 {
     protected readonly object Value1;
 
+    // ReSharper disable once ConvertToPrimaryConstructor
     protected RangeContractAspect(IComparable Value) => Value1 = Value;
 
     public override void BuildEligibility(IEligibilityBuilder<IParameter> Builder)
