@@ -2,6 +2,10 @@
 
 Atesh.Metalama library is a collection of custom made Metalama Aspects (a.k.a Attributes).
 
+# Breaking Changes (starting from version 1.3)
+
+Prior to 1.3 version, this library used to provide Range related parameter validation aspects like LessThan, LessThanOrEqual, GreaterThan, GreaterThanOrEqual, etc. However, the official Metalama library [Metalama.Patterns.Contracts](https://www.nuget.org/packages/Metalama.Patterns.Contracts) now provides these aspects as built-in aspects. Therefore, this library no longer provides these aspects. You should use the built-in aspects provided by Metalama library instead.
+
 # Prerequisites
 
 * **Metalama:** The purpose of Atesh.Metalama library is to add additional features to Metalama by providing new aspects. Metalama is a commercial product which is a modern replacement for PostSharp: https://www.postsharp.net/metalama. \

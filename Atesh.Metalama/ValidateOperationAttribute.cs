@@ -6,6 +6,7 @@ public class ValidateOperationAttribute : OverrideMethodAspect
 {
     readonly string[] MethodNames;
 
+    // ReSharper disable once ConvertToPrimaryConstructor
     public ValidateOperationAttribute(params string[] MethodNames) => this.MethodNames = MethodNames;
 
     public override dynamic? OverrideMethod()
