@@ -14,8 +14,6 @@
     <RepositoryUrl>git@bitbucket.org:XtroTheArctic/atesh.metalama</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>Atesh, Metalama, PostSharp, Aspect, Attribute</PackageTags>
-    <AssemblyVersion>0.0.0.0</AssemblyVersion>
-    <FileVersion>0.0.0.0</FileVersion>
     <MetalamaLicense>111976-ZQMC8QQQXEAEQRQCB88YNBFRY2EWBQGVS8KTX7YDS29ZXNSRF4UWBZUAAZ9CNJAFVD6CXMSRR4UMNTDAEJ8QB6WGK6W35S65EU5WTDMSWE7EL2WBLF2Q4UUYTPPFZ3NN6H97CDPJHAD2J83UYMZQQDE9YUWZTCWQL5AR27W3VJRL5</MetalamaLicense>
   </PropertyGroup>
 
