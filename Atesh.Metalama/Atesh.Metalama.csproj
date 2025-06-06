@@ -10,8 +10,8 @@
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
     <Company>Atesh Entertainment Inc.</Company>
     <Description>Atesh.Metalama library is a collection of custom made Metalama Aspects (a.k.a Attributes).</Description>
-    <PackageProjectUrl>https://bitbucket.org/XtroTheArctic/atesh.metalama</PackageProjectUrl>
-    <RepositoryUrl>git@bitbucket.org:XtroTheArctic/atesh.metalama</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/XtroTheArctic/Atesh.Metalama</PackageProjectUrl>
+    <RepositoryUrl>git@github.com:XtroTheArctic/Atesh.Metalama.git</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>Atesh, Metalama, PostSharp, Aspect, Attribute</PackageTags>
     <MetalamaLicense>111976-ZQMC8QQQXEAEQRQCB88YNBFRY2EWBQGVS8KTX7YDS29ZXNSRF4UWBZUAAZ9CNJAFVD6CXMSRR4UMNTDAEJ8QB6WGK6W35S65EU5WTDMSWE7EL2WBLF2Q4UUYTPPFZ3NN6H97CDPJHAD2J83UYMZQQDE9YUWZTCWQL5AR27W3VJRL5</MetalamaLicense>

@@ -54,13 +54,13 @@ You can see the distribution section of [Metalama Documentation](https://doc.met
 
 # Contribution
 
-You can easily contribute to the project by just reporting issues to [here](https://bitbucket.org/XtroTheArctic/Atesh.Metalama/issues)
+You can easily contribute to the project by just reporting issues to [here](https://github.com/XtroTheArctic/Atesh.Metalama/issues)
 
-If you want to get involved and actively contribute to the project, you can simply do so by sending pull requests to the project lead via bitbucket.com.
+If you want to get involved and actively contribute to the project, you can simply do so by sending pull requests to the project lead via github.com.
 
-Project page on [Bitbucket](https://bitbucket.org/XtroTheArctic/Atesh.Metalama)
+Project page on [GitHub](https://github.com/XtroTheArctic/Atesh.Metalama)
 
-Git Repo URL: git@bitbucket.org:XtroTheArctic/atesh.metalama.git
+Git Repo URL: git@github.com:XtroTheArctic/Atesh.Metalama.git
 
 Please feel free to contact the team members via email at any time.
 
